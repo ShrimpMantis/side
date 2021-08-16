@@ -1,1 +1,1 @@
-# side
+# React application using functional components
