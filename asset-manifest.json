@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/side/codingchallenge/static/css/main.9fe65674.chunk.css",
-    "main.js": "/side/codingchallenge/static/js/main.64948f86.chunk.js",
-    "main.js.map": "/side/codingchallenge/static/js/main.64948f86.chunk.js.map",
-    "runtime-main.js": "/side/codingchallenge/static/js/runtime-main.69a771c2.js",
-    "runtime-main.js.map": "/side/codingchallenge/static/js/runtime-main.69a771c2.js.map",
-    "static/css/2.1e662cbc.chunk.css": "/side/codingchallenge/static/css/2.1e662cbc.chunk.css",
-    "static/js/2.bf88a71c.chunk.js": "/side/codingchallenge/static/js/2.bf88a71c.chunk.js",
-    "static/js/2.bf88a71c.chunk.js.map": "/side/codingchallenge/static/js/2.bf88a71c.chunk.js.map",
-    "static/js/3.6f56ee98.chunk.js": "/side/codingchallenge/static/js/3.6f56ee98.chunk.js",
-    "static/js/3.6f56ee98.chunk.js.map": "/side/codingchallenge/static/js/3.6f56ee98.chunk.js.map",
-    "index.html": "/side/codingchallenge/index.html",
-    "static/css/2.1e662cbc.chunk.css.map": "/side/codingchallenge/static/css/2.1e662cbc.chunk.css.map",
-    "static/css/main.9fe65674.chunk.css.map": "/side/codingchallenge/static/css/main.9fe65674.chunk.css.map",
-    "static/js/2.bf88a71c.chunk.js.LICENSE.txt": "/side/codingchallenge/static/js/2.bf88a71c.chunk.js.LICENSE.txt",
-    "static/media/heart-fill.252a36b8.svg": "/side/codingchallenge/static/media/heart-fill.252a36b8.svg",
-    "static/media/PropertyCard.module.css": "/side/codingchallenge/static/media/heart-stroke.b3b99e7a.svg"
+    "main.css": "/side/static/css/main.343070fd.chunk.css",
+    "main.js": "/side/static/js/main.64948f86.chunk.js",
+    "main.js.map": "/side/static/js/main.64948f86.chunk.js.map",
+    "runtime-main.js": "/side/static/js/runtime-main.b1b9423c.js",
+    "runtime-main.js.map": "/side/static/js/runtime-main.b1b9423c.js.map",
+    "static/css/2.1e662cbc.chunk.css": "/side/static/css/2.1e662cbc.chunk.css",
+    "static/js/2.bf88a71c.chunk.js": "/side/static/js/2.bf88a71c.chunk.js",
+    "static/js/2.bf88a71c.chunk.js.map": "/side/static/js/2.bf88a71c.chunk.js.map",
+    "static/js/3.6f56ee98.chunk.js": "/side/static/js/3.6f56ee98.chunk.js",
+    "static/js/3.6f56ee98.chunk.js.map": "/side/static/js/3.6f56ee98.chunk.js.map",
+    "index.html": "/side/index.html",
+    "static/css/2.1e662cbc.chunk.css.map": "/side/static/css/2.1e662cbc.chunk.css.map",
+    "static/css/main.343070fd.chunk.css.map": "/side/static/css/main.343070fd.chunk.css.map",
+    "static/js/2.bf88a71c.chunk.js.LICENSE.txt": "/side/static/js/2.bf88a71c.chunk.js.LICENSE.txt",
+    "static/media/heart-fill.252a36b8.svg": "/side/static/media/heart-fill.252a36b8.svg",
+    "static/media/PropertyCard.module.css": "/side/static/media/heart-stroke.b3b99e7a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.69a771c2.js",
+    "static/js/runtime-main.b1b9423c.js",
     "static/css/2.1e662cbc.chunk.css",
     "static/js/2.bf88a71c.chunk.js",
-    "static/css/main.9fe65674.chunk.css",
+    "static/css/main.343070fd.chunk.css",
     "static/js/main.64948f86.chunk.js"
   ]
 }
