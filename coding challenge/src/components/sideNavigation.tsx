@@ -3,7 +3,6 @@ import React from 'react';
 import { removeFavoriteData, saveFavoriteData } from 'services';
 import styles from './../styles/SideNavigation.module.css';
 import PropertyCard from './propertyCard';
-import PropertyGrid from './propertyGrid';
 
 const SideNavigation = (props: { listings: Array<Property> | undefined }) => {
   const favoriteCallBackHandler = (propertyObj: Property) => {

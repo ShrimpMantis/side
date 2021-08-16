@@ -1,4 +1,3 @@
-import { url } from "inspector";
 import { Property } from "models";
 
 export const  getData= async ()=>{

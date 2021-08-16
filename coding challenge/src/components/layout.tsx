@@ -9,6 +9,8 @@ const  Layout=() =>{
    
  const routes=[
      {key:"home",component:Home},
+     {key:"/side", component:Home},
+     {key:"/", component:Home},
      {key:"aboutUs",component:AboutUs},
     ];
  const routeValues= routes.map((route, index)=>{
