@@ -1,0 +1,121 @@
+.header{
+    position:absolute;
+    z-index:9;
+    top:0;
+    bottom:100%;
+    background-color: #F4F4F4;
+    height:103px;
+    width:100%;
+    padding:1%;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Open Sans';
+    line-height: 40px;
+    font-size: 28px;
+    border-radius: 1px;
+}
+.cardWrapper{
+    height: 60%;
+    width: 25%;
+    padding: 1%;
+}
+.propertyGridWrapper{
+    padding: 2%;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+    margin-top:7%;
+    overflow-y:auto;
+    background-color: white;
+}
+
+.headerText{
+    margin:1%;
+}
+
+
+
+@media screen and (max-width: 1880px),
+       screen and (max-width: 1366px) and (orientation: landscape),
+       screen and (max-width: 1366px) and (orientation: portrait){
+
+       }
+
+
+ @media  screen and (max-width: 1200px) and (orientation: landscape),
+       screen and (max-width: 1200px) and (orientation: portrait),
+       screen and (max-width: 1024px) and (orientation: landscape),
+       screen and (max-width: 1024px) and (orientation: portrait){
+
+       }
+
+       @media screen and (max-width:960px) and (orientation: landscape){
+
+       }
+
+       @media screen and (max-width:768px),
+       screen and (max-width:667px) and (orientation: portrait){
+
+       }
+
+       @media screen and (max-width : 350px),
+       screen and (max-width:480px){
+        .cardWrapper{
+            height:50%;
+            width:50%;
+        }
+        .header{
+            font-size:15px;
+            height:59px;
+        }
+
+        .propertyGridWrapper{
+            margin-top:28%;
+        }
+        .cardWrapper{
+            height:30%;
+        }
+
+       }
+
+       @media screen and (max-width:320px),
+       screen and (max-width:480px){
+      
+        .cardWrapper{
+            height:50%;
+            width:50%;
+        }
+        .header{
+            font-size:15px;
+            height:59px;
+        }
+
+        .propertyGridWrapper{
+            margin-top:28%;
+        }
+        .cardWrapper{
+            height:30%;
+        }
+       }
+
+       @media screen and (max-width:290px){
+           .cardWrapper{
+               height:50%;
+               width:50%;
+           }
+           .header{
+               font-size:15px;
+               height:59px;
+           }
+           .propertyGridWrapper{
+               margin-top:28%;
+           }
+
+           .cardWrapper{
+               height:30%;
+           }
+       }
