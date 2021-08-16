@@ -14,12 +14,12 @@ const  Home= () =>{
      const fetchData= async ()=>{
          const propertyData= getCacheData();
          if(propertyData==null){
-            var result= await getData();
+            let result= await getData();
             cachePropertyData(result);
-            var properResult= massageData(result);
+            let properResult= massageData(result);
             setDataInPlaces(properResult);
          }else{
-            var properResult= massageData(propertyData);
+            let properResult= massageData(propertyData);
             setDataInPlaces(properResult);
          }
      }

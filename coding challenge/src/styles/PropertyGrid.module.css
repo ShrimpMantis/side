@@ -27,7 +27,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    flex-grow: 1;
+    flex: 1 0 auto;
     margin-top:7%;
     overflow-y:auto;
     background-color: white;
@@ -59,7 +59,21 @@
 
        @media screen and (max-width:768px),
        screen and (max-width:667px) and (orientation: portrait){
+        .cardWrapper{
+            height:50%;
+            width:50%;
+        }
+        .header{
+            font-size:15px;
+            height:59px;
+        }
 
+        .propertyGridWrapper{
+            margin-top:28%;
+        }
+        .cardWrapper{
+            height:30%;
+        }
        }
 
        @media screen and (max-width : 350px),

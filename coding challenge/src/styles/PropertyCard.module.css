@@ -4,9 +4,9 @@
     padding:2%;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
     position:relative;
     border-radius: 4px;
+    flex: 1 0 auto;
 }
 
 .pictureWrapper{
@@ -21,6 +21,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex: 1 0 auto;
     font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
@@ -116,6 +117,21 @@
 
        @media screen and (max-width:768px),
        screen and (max-width:667px) and (orientation: portrait){
+        .pictureWrapper{
+            height: 60%;
+        }
+        .informationNuggetsWrapper{
+            font-size:10px;
+        }
+        .priceInformation{
+            font-size:12px;
+        }
+        .propertyAddress{
+            font-size: 10px;
+        }
+        .propertySubtext{
+            font-size: 8px;;
+        }
 
        }
 
@@ -128,7 +144,7 @@
             font-size:10px;
         }
         .priceInformation{
-            font-size:15px;
+            font-size:12px;
         }
         .propertyAddress{
             font-size: 10px;
@@ -148,7 +164,7 @@
             font-size:10px;
         }
         .priceInformation{
-            font-size:15px;
+            font-size:12px;
         }
         .propertyAddress{
             font-size: 10px;
@@ -169,7 +185,7 @@
             }
 
             .priceInformation{
-                font-size:15px;
+                font-size:12px;
             }
             .propertyAddress{
                 font-size: 10px;

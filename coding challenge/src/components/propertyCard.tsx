@@ -60,7 +60,6 @@ const  PropertyCard = (props:{property:Property,  isFavoriteHandler:(id:Property
             <span className={styles.nugget}>|</span>
 
             <span className={styles.nugget}>{propValue.bedrooms}</span><span>{Measurements.squareFeet}</span>
-
         </div>
         <div className={styles.priceInformation}>
             ${propValue.listPrice.toLocaleString()}

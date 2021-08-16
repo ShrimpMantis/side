@@ -39,7 +39,9 @@
 
        @media screen and (max-width:768px),
        screen and (max-width:667px) and (orientation: portrait){
-
+        .sideNav{
+            width:35%;
+        }
        }
 
        @media screen and (max-width : 350px),
